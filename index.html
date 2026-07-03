@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/MW_logo.webp" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+  <title>Maharishi World</title>
+  <meta name="google-site-verification" content="oQBkiPFUGxjMTq8CVKvM9hTR8izfK2IvLAWA7kOT_lY" />
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EWBZ0YP3RR"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-EWBZ0YP3RR');
+  </script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Montserrat:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'mw-gold': '#D4A017',
+            'mw-green': '#bc961f',
+            'mw-cream': '#fdf6e3',
+            'mw-blue': '#c26eff',
+            'mw-brown': '#745233',
+            'mw-white':'#FFFFFF'
+          },
+          fontFamily: {
+            serif: ['Montserrat', 'Open Sans', 'sans-serif'],
+            sans: ['Libre Baskerville', 'Georgia', 'serif'],
+          },
+        },
+      },
+    };
+  </script>
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: 'Montserrat', serif;
+    }
+  </style>
+
+  <!-- <script type="importmap">
+  {
+    "imports": {
+      "react/": "https://esm.sh/react@^19.1.1/",
+      "react": "https://esm.sh/react@^19.1.1",
+      "react-dom/": "https://esm.sh/react-dom@^19.1.1/",
+      "react-router-dom": "https://esm.sh/react-router-dom@^7.8.1"
+    }
+  }
+  </script> -->
+  <link rel="stylesheet" href="src/index.css">
+</head>
+
+<body class="bg-mw-cream text-mw-green">
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
+</html>
