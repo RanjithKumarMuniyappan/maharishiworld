@@ -12,31 +12,31 @@ const initiatives: Initiative[] = [
   {
     title: 'Maharishi Bliss Residency (MBR)',
     desc: 'An educational and corporate leaders training center near Bhopal situated on 17 acres with gardens, farms and a dairy. It provides 100 air-conditioned rooms, 24-hour Wi-Fi, solar-heated water and medical care. Course participants receive specialized knowledge of their field and also practice Yoga and TM daily and contribute to global peace through group meditation.',
-    imageSrc: '/public/images/movement/MaharishiBlissResidency.jpg',
+    imageSrc: 'images/movement/MaharishiBlissResidency.jpg',
     imageAlt: 'Maharishi Bliss Residency campus'
   },
   {
     title: 'Maharishi Ideal India Campaign (MIIC)',
     desc: "Launched on 11 January 2015 to encourage citizens to adopt Vedic values and ethical living for their own and nation's upliftment. The campaign aims to provide an Ideal Life to all citizens, society, and the nation.",
-    imageSrc: '/public/images/movement/MaharishiIdealIndiaCampaign.jpg',
+    imageSrc: '/images/movement/MaharishiIdealIndiaCampaign.jpg',
     imageAlt: 'Ideal India Campaign presentation'
   },
   {
     title: 'Maharishi Vedic Sanskratik Kendra (MVSK)',
     desc: 'Located in Bhopal, this centre includes lecture halls, exhibition rooms, TM initiation rooms, a Yoga and Yogic Flying hall, a library and counselling rooms. It offers courses in different fields of Vedic education, Jyotish, Vedic Approach to Health, Vastu, Gandharva Veda, Vedic Agriculture and gardening.',
-    imageSrc: '/public/images/movement/MaharishiVedicSanskratikKendra.jpg',
+    imageSrc: '/images/movement/MaharishiVedicSanskratikKendra.jpg',
     imageAlt: 'Maharishi Vedic Sanskratik Kendra building'
   },
   {
     title: 'Maharishi Vedic Administrative Training Institute',
     desc: 'Provides natural-law-based administrative training—specifically training on Vedic Management and Vedic Life—to participants. Thousands of individuals and administrators have been trained by the institute.',
-    imageSrc: '/public/images/movement/MaharishiVedicAdministrativeTrainingInstitute.jpg',
+    imageSrc: '/images/movement/MaharishiVedicAdministrativeTrainingInstitute.jpg',
     imageAlt: 'Vedic Administrative Training class'
   },
   {
     title: 'Maharishi Smarak',
     desc: "A memorial in Teerthraj Prayagraj on the pious confluence (sangam) of Ganga, Yamuna and Saraswati, a unique monument of Maharishi Vedic Science and Technology, commemorating Maharishi Mahesh Yogi's life, knowledge, and work.",
-    imageSrc: '/public/images/movement/MaharishiSmarak.jpg',
+    imageSrc: '/images/movement/MaharishiSmarak.jpg',
     imageAlt: 'Maharishi Smarak memorial'
   }
 ];
